@@ -19,7 +19,9 @@ const DUMMY_MEETUPS = [
 ];
 
 function Homepage() {
-    return <MeetupList meetups={DUMMY_MEETUPS} />
+    return (
+            <MeetupList meetups={DUMMY_MEETUPS} />
+    )       
 }
 
 export default Homepage;
